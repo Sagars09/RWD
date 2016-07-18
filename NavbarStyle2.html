@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>NavbarStyle-2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrapcdn.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrapcdn.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/._bootstrap-theme.min.css.map">
+
+    <style>
+        .nav-height {
+            height: 80px;
+        }
+        .list {
+            padding-top: 15px;
+        }
+        .gradient-color-1 {
+            background: linear-gradient(to bottom right, #0f050e, #cac5cc);
+        }
+        .list-color {
+            color: #33b7ad;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar gradient-color-1">
+    <div class="container">
+        <div class="navbar-header nav-height">
+            <a href="#" class="navbar-brand">
+                <img src="Images/-text.png">
+            </a>
+            <button type="button" id="navbar_header_button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="nav-collapse">
+            <ul class="nav navbar-nav navbar-right list">
+                <li><a class="list-color" href="#">Home</a> </li>
+                <li><a class="list-color" href="#">About Us</a> </li>
+                <li class="dropdown"><a class="list-color" href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                   role="button">Features<span class="caret"></span> </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Profile</a> </li>
+                        <li><a href="#">Account</a> </li>
+                        <li class="divider" role="separator"></li>
+                        <li class="dropdown-header">Settings</li>
+                        <li><a href="#">Password</a> </li>
+                        <li><a href="#">Logout</a> </li>
+                    </ul>
+                </li>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" id="first-name" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="last-name" class="form-control" placeholder="Last Name">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</body>
+</html>

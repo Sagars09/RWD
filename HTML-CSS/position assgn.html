@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Position Assignment</title>
+    <style>
+        body{
+            background-image: url(2022725-wallpaper_625864_Iz6NK8G.jpg);
+        }
+        #div1{
+            color:aliceblue;
+            position: relative;
+         
+        }
+        .div1{
+            display: none;
+        }
+        .a1:hover .div1{
+            display: block;
+        }
+        #div2{
+            color:aliceblue;
+            position: absolute;
+            left: 94%;
+            top: 10px;
+         
+        }
+        #div3{
+            color:darkred;
+            position: absolute;
+            top: 97%;
+         
+        }
+        #div4{
+            color:darkred;
+            position: absolute;
+            top: 97%;
+            left: 92%;
+         
+        }
+        #div5{
+            color: bisque;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+         
+        }
+        
+        #nav{
+            position: absolute;
+            top: 50px;
+            left: 35%;
+            background-color: transparent;
+            padding: 5px;
+        }
+        a{
+            padding: 5px;
+            background-color: transparent;
+            border-collapse: collapse;
+            margin: 0px;
+        }
+        a:hover{
+            background-color: burlywood;
+            border-radius: 35%;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <a href="#div1" class="a1">Top Left</a>
+        <a href="#div2">Top Right</a>
+        <a href="#div3">Bottom Left</a>
+        <a href="#div4">Bottom Right</a>
+        <a href="#div5">Center</a>
+        <a href="#div1">All</a>
+    </div>
+    <div id="div1" class="div1">
+        Top Left
+    </div>
+    <div id="div2">
+        Top Right
+    </div>
+    <div id="div3">
+        Bottom Left
+    </div>
+    <div id="div4">
+        Bottom Right
+    </div>
+    <div id="div5">
+        Center
+    </div>
+</body>
+</html>

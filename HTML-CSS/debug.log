@@ -1,0 +1,2 @@
+[0420/125046:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[0530/002027:ERROR:file_io.cc(41)] write: The pipe is being closed. (0xE8)

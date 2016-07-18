@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Some CSS3 Part I</title>
+    <style>
+        body {
+            background-image: url("border.png"), url("2022725-wallpaper_625864_Iz6NK8G.jpg");
+            background-position: right bottom,100%;
+            background-repeat: no-repeat, no-repeat;
+            background-size: contain,cover;
+        }
+        .border-image {
+            padding: 20px;
+            border: 2px solid transparent;
+            border-image: url("border.png") 20% stretch;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="border-image">
+        Time tracking for freelancers
+        Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.
+        There are now a set of mock banners available here in three colours and in a range of standard banner sizes:
+        Banners Banners Banners
+        Donate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.
+        Chrome Firefox Add-on NodeJS TeX Package Python Interface GTK Lipsum Rails Groovy Adobe Plugin
+        The standard Lorem Ipsum passage, used since the 1500s
+    </div>
+</body>
+</html>
